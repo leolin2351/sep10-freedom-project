@@ -31,6 +31,8 @@ https://www.business.org/it/hardware/essential-hardware-products-for-starting-yo
 ```
 <p> I used an AI(Chat GPT) to generate 15 unknown devices and hardwares which I never knew existed because it wasn't common for business majors to use. These examples shocked me because I didn't know what an ergonomic keyboard, KVM Switches, and Cloud-Based Backup Drives were. For business students, Chat GTP was really beneficial because it taught me about 15 unknown devices and hardware pieces and explained their functions. I was also stuck on what important notes to take about devices and hardwares for business because I didn't want to use common devices and hardwares for business majors which a lot of people know about. I was able to learn more about business majors' devices and hardware because to Chat GTP.  </p>
 
+<h1></h1>
+
 [Previous](entry01.md) | [Next](entry03.md)
 
 [Home](../README.md)
