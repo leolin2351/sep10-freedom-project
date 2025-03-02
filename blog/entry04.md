@@ -1,4 +1,4 @@
-# Entry 4
+# Entry 4:LEARNING A TOOL(AFRAME)
 ##### 3/2/24
 <h2>What tools I chose:</h2>
 <p> In this blog we had to research on some computer sciences tools. We had to research many different types of tool in computer sciences. I had many choices that i wnateed to learn more about but choose Aframe. Aframe is a digital data transmission unit in computer networking and telecommunications. Its used to manage program execution and maintain data during method calls. In other telecommunications systems, a frame is a repeating structure supporting time-division multiplexing. I found this tool to be very interesting and helps me explore my curiosuity of this tool.</p>
