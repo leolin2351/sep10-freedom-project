@@ -5,9 +5,16 @@
 ---
 
 ### 3/5/25:
-* Text
-I learned that in Aframe you can create many different 3d models. I didnt understand the purpose of A frame but after reading some websites i was able to father my understanding of A frame. I was looking into the A frame website and saw many different codes i never seen before but when i started to tinker with it i was able to see a 3d plate form of the objects i added. I also saw a change in the size and color of the object. I felt like there is a deeper context behidn my curiousity of A frame.
--
+
+<a href="https://aframe.io/" >Aframe</a>
+
+* A-Frame is not just a 3D scene graph or a markup language; the core is a powerful entity-component framework that provides a declarative, extensible, and composable structure to three.js.
+* a-Frame is a web framework for building virtual reality (VR) experiences
+* Inorder to you create an .html file and include A-Frame in the head.
+* you can create many different types of shape like circle, boxs, cylinder, and etc.
+*you can create different types of scenes like a plane and a sky.
+<p>These are the notes that i took when just looking at the website because i want to understand the basic of the website before doing deeper research</p>
+
 ### X/X/XX:
 * Text
 
