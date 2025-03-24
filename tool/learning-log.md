@@ -99,6 +99,8 @@ img {
 </html>
 ```
 <p>This was something that i used to create a simulation but later on i found out that when using this html i didn't know why it wasn't working before but when i used JSbin i was able to see the code in action and how it played a role of what i can do with Aframe.</p>
+<p>Important notes i learn is the server because at first i didnt have the correct server which didnt allow me to see what the code can do</p>
+<p>The second note i learn is to explore and expand my curiousity throughout studying Aframe.</p>
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
