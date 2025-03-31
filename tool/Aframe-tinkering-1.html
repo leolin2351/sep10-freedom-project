@@ -7,11 +7,14 @@
   </head>
   <body>
     <a-scene>
-      <a-entity id="rain" particle-system="preset: rain; color: #24CAFF; particleCount: 5000"></a-entity>
+      <a-entity id="snow" particle-system="preset: snow; color: #24CAFF; particleCount: 5000"></a-entity>
 
-      <a-entity id="sphere" geometry="primitive: sphere"
+      <a-entity id="box" geometry="primitive: box"
                 material="color: #EFEFEF; shader: flat"
-                position="0 0.15 -5"
+                position="0 2 -5"
+                rotation="0 45 45"
+                scale="3 3 3"
+                color="brown" 
                 light="type: point; intensity: 5"
                 animation="property: position; easing: easeInOutQuad; dir: alternate; dur: 1000; to: 0 -0.10 -5; loop: true"></a-entity>
 
@@ -22,6 +25,8 @@
       <a-sky-background top-color="#EBEBF5" bottom-color="#B9B9D2"></a-sky-background>
 
       <a-entity id="light" light="type: ambient; color: #888"></a-entity>
+      <a-sky color="#222"></a-sky>
+    </a-scene>
     </a-scene>
   </body>
 </html>
