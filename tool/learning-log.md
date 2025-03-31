@@ -101,10 +101,42 @@ img {
 <p>This was something that i used to create a simulation but later on i found out that when using this html i didn't know why it wasn't working before but when i used JSbin i was able to see the code in action and how it played a role of what i can do with Aframe.</p>
 <p>Important notes i learn is the server because at first i didnt have the correct server which didnt allow me to see what the code can do</p>
 <p>The second note i learn is to explore and expand my curiousity throughout studying Aframe.</p>
-<!-- 
-* Links you used today (websites, videos, etc)
-* Things you tried, progress you made, etc
-* Challenges, a-ha moments, etc
-* Questions you still have
-* What you're going to try next
--->
+
+<h3>3/31/25</h3>
+<p>During this learning i was able to fool around with my imagingation. I was very bored when doing A-frame but something caught my eyes when i was tinkering around. I was able to change the weather, the setting and make something glow.</p>
+
+```bash
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/@c-frame/aframe-particle-system-component@1.2.x/dist/aframe-particle-system-component.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.5.0/dist/aframe-extras.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fern-solutions/aframe-sky-background/dist/sky-background.umd.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-entity id="snow" particle-system="preset: snow; color: #24CAFF; particleCount: 5000"></a-entity>
+
+      <a-entity id="box" geometry="primitive: box"
+                material="color: #EFEFEF; shader: flat"
+                position="0 2 -5"
+                rotation="0 45 45"
+                scale="3 3 3"
+                color="brown" 
+                light="type: point; intensity: 5"
+                animation="property: position; easing: easeInOutQuad; dir: alternate; dur: 1000; to: 0 -0.10 -5; loop: true"></a-entity>
+
+      <a-entity id="ocean" ocean="density: 20; width: 50; depth: 50; speed: 4"
+                material="color: #9CE3F9; opacity: 0.75; metalness: 0; roughness: 1"
+                rotation="-90 0 0"></a-entity>
+
+      <a-sky-background top-color="#EBEBF5" bottom-color="#B9B9D2"></a-sky-background>
+
+      <a-entity id="light" light="type: ambient; color: #888"></a-entity>
+      <a-sky color="#222"></a-sky>
+    </a-scene>
+    </a-scene>
+  </body>
+</html>
+```
+<p> This was something that shocked my curiousity because i didnt know that i was able to change alot of the code to make my scene look something i dreamed about. This made me wonder if A-frame was so boring because i was able to learn from my imgaination and create something that i never knew was possible.</p>
