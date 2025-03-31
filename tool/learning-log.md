@@ -61,7 +61,46 @@ img {
   height: 100%;
 }
 ```
+<h1>3/23/25</h1>
+<p>During this learning log i was able to search up and find some Aframe simulations to tinker around with.</p>
+<a href= "https://codepen.io/tmd45/pen/OEVowY">A frame sample</a>
 
+```bash
+<html>
+  <head>
+    <!-- from https://github.com/aframevr/aframe/ -->
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-animation-component@3.2.1/dist/aframe-animation-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-particle-system-component@1.0.x/dist/aframe-particle-system-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-extras.ocean@%5E3.5.x/dist/aframe-extras.ocean.min.js"></script>
+    <script src="https://unpkg.com/aframe-gradient-sky@1.0.4/dist/gradientsky.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-entity id="rain" particle-system="preset: rain; color: #24CAFF; particleCount: 5000"></a-entity>
+
+      <a-entity id="sphere" geometry="primitive: sphere"
+                material="color: #EFEFEF; shader: flat"
+                position="0 0.15 -5"
+                light="type: point; intensity: 5"
+                animation="property: position; easing: easeInOutQuad; dir: alternate; dur: 1000; to: 0 -0.10 -5; loop: true"></a-entity>
+
+      <a-entity id="ocean" ocean="density: 20; width: 50; depth: 50; speed: 4"
+                material="color: #9CE3F9; opacity: 0.75; metalness: 0; roughness: 1"
+                rotation="-90 0 0"></a-entity>
+
+      <a-entity id="sky" geometry="primitive: sphere; radius: 5000"
+                material="shader: gradient; topColor: 235 235 245; bottomColor: 185 185 210"
+                scale="-1 1 1"></a-entity>
+
+      <a-entity id="light" light="type: ambient; color: #888"></a-entity>
+    </a-scene>
+  </body>
+</html>
+```
+<p>This was something that i used to create a simulation but later on i found out that when using this html i didn't know why it wasn't working before but when i used JSbin i was able to see the code in action and how it played a role of what i can do with Aframe.</p>
+<p>Important notes i learn is the server because at first i didnt have the correct server which didnt allow me to see what the code can do</p>
+<p>The second note i learn is to explore and expand my curiousity throughout studying Aframe.</p>
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
