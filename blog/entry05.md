@@ -55,6 +55,8 @@
 
 *Time management
   * I experienced this skill because I had a lot of work to finish in school which didn't give me time to fully learn and tinker with my tool. During spring break I was able to tinker with the lost time I had in school which deepened my understanding in A-frame. I was able to finish a lot of my homework which enabled me to finish my Blog before the time limit.
+<h1>NEXT STEP</h1>
+<p>For my next step i will create a wireframe of my freedom project topic which is business.</p>
 [Previous](entry04.md) | [Next](entry06.md)
 
 [Home](../README.md)
