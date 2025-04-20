@@ -49,7 +49,7 @@
 <p>Another source I used was <a href="https://jsbin.com/?html,output">jsbin</a>. I will explain what you would see when applying these codes into jsbin. When applying these codes you would create an ocean in the night sky with snow particles, dust particles, smoke particles, and rain particles. There would be a glowing box in the center. And you can enter full screen on the right side of your screen. If you move out you would see smoke creating fireworks and make it look relaxing. This inspiration I created was during my time on the fourth of july i saw many fireworks coming out of the water and saw many different 3d fake particles which inspired me to create what i saw.</p>
 
 <h1>SKILLS:</h1>
-<p>Here are some experiences and SKill i learned from this blog entry 5.</p>
+<p>Here are some experiences and skill i learned from this blog entry 5.</p>
 
 *Creativity
   * I experienced this skill because at first I didn't know what I wanted to create but when I closed my eyes I was able to picture something I saw in the past which gave me inspiration to create this.
