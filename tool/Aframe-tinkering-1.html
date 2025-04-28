@@ -7,13 +7,13 @@
   </head>
   <body>
     <a-scene>
-      <a-entity id="snow" particle-system="preset: snow; color: #24CAFF; particleCount: 5000"></a-entity>
+      <a-entity id="snow" particle-system="preset: snow; color: #24CAFF; particleCount: 1000"></a-entity>
       <a-scene>
-        <a-entity id="rain" particle-system="preset: rain; color: #24CAFF; particleCount: 5000"></a-entity>
+        <a-entity id="rain" particle-system="preset: rain; color: #24CAFF; particleCount: 1000"></a-entity>
         <a-scene>
-          <a-entity id="smoke" particle-system="preset: smoke; color: red; particleCount: 5000"></a-entity>
+          <a-entity id="smoke" particle-system="preset: smoke; color: white; particleCount: 4000"></a-entity>
           <a-scene>
-            <a-entity id="dust" particle-system="preset: dust; color: brown; particleCount: 5000"></a-entity>
+            <a-entity id="dust" particle-system="preset: dust; color: brown; particleCount: 10000"></a-entity>
       <a-entity id="box" geometry="primitive: box"
                 material="color: #EFEFEF; shader: flat"
                 position="0 2 -5"
@@ -26,7 +26,7 @@
                   <a-cursor fuse=“true” fuse-timeout=“5000”></a-cursor>
                 </a-camera>
       <a-entity id="ocean" ocean="density: 20; width: 100; depth: 50; speed: 4"
-                material="color: #9CE3F9; opacity: 0.75; metalness: 0; roughness: 1"
+                material="color: blue; opacity: 0.75; metalness: 0; roughness: 1"
                 rotation="-90 0 0"></a-entity>
 
       <a-sky-background top-color="#EBEBF5" bottom-color="#B9B9D2"></a-sky-background>

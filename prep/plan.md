@@ -1,4 +1,5 @@
 # Plan
+-add a image as a background
 
 ## Wireframes
 * [Mobile]()
