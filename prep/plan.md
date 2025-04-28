@@ -13,6 +13,7 @@
   <li>add a carosuel and put part B as the heading</li>
   <li>add a box and put part B as the heading and explain what my future invention</li>
 <li>add a image of how i use A-frame to tinkering with my future techonology.</li>
+  <li>Add a paragraph of how i tinkered with a-frame to create my future techonology.</li>
   </ul>
 * [Desktop]()
 <ul>
@@ -26,6 +27,7 @@
   <li>add a carosuel and put part B as the heading</li>
   <li>add a box and put part B as the heading and explain what my future invention</li>
 <li>add a image of how i use A-frame to tinkering with my future techonology.</li>
+  <li>Add a paragraph of how i tinkered with a-frame to create my future techonology.</li>
 </ul>
 ## Colors
 <ul>
