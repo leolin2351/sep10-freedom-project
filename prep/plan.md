@@ -77,7 +77,7 @@
 | Cammi | I like your aframe creation, it is very unique, and amazing work on the navbar. | Your image near timeline of inventions is not loaded.
 | Alialrida |I think ebverything in your website is above mvp level and it looks ready forr further developement.|
 |  Ekrar | I really like how organized all the information is. There are seperate sections for every different topic for buisness.  | I think you should change the embed of the a-frame because I didn't know that there was an aframe until I clicked the full screen button of the a-frame.
-|   |   |
+| Xin Yu  |   |I think you should consider fixing your accordion, because when I tried clicking on the frequently asked question section for the accordion, nothing appears nor does it show up, so I think you should consider fixing it. I think you should also fix your navbar, because when I tried clicking on it, it doesn't work(for the mobile version like zoomed in version)
 |   |   |
 |   |   |
 
