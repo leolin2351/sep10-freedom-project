@@ -84,7 +84,17 @@
 *::after {
   box-sizing: border-box;
 }
+.aframebox {
+  width:100px;
+  height: 100px;
+}
+.button {
+  color:black;
 
+}
+.button:hover{
+  color:white;
+}
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
