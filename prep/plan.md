@@ -74,8 +74,8 @@
 
 | Name | Glows | Grows |
 | -------- | ------- | ------- |
-|   |   |
-|   |   |
+| Cammi | I like your aframe creation, it is very unique, and amazing work on the navbar. | Your image near timeline of inventions is not loaded.
+| Alialrida |I think ebverything in your website is above mvp level and it looks ready forr further developement.|
 |   |   |
 |   |   |
 |   |   |
