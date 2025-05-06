@@ -76,7 +76,7 @@
 | -------- | ------- | ------- |
 | Cammi | I like your aframe creation, it is very unique, and amazing work on the navbar. | Your image near timeline of inventions is not loaded.
 | Alialrida |I think ebverything in your website is above mvp level and it looks ready forr further developement.|
-|   |   |
+|  Ekrar | I really like how organized all the information is. There are seperate sections for every different topic for buisness.  | I think you should change the embed of the a-frame because I didn't know that there was an aframe until I clicked the full screen button of the a-frame.
 |   |   |
 |   |   |
 |   |   |
