@@ -1,96 +1,485 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Business Frontpage - Start Bootstrap Template</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <body class="index-page">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Business</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    
 
-            <header id="header" class="header d-flex align-items-center fixed-top">
-              <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-          
-                <a href="index.html" class="logo d-flex align-items-center">
-                  <!-- Uncomment the line below if you also wish to use an image logo -->
-                  <!-- <img src="assets/img/logo.png" alt=""> -->
-                  <h1 class="sitename">Business</h1>
-                </a>
-          
-                <nav id="navmenu" class="navmenu">
-                  <ul>
-                    <li><a href="#hero" class="active">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                      <ul>
-                        <li><a href="#">Dropdown 1</a></li>
-                        <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                          <ul>
-                            <li><a href="#">Deep Dropdown 1</a></li>
-                            <li><a href="#">Deep Dropdown 2</a></li>
-                            <li><a href="#">Deep Dropdown 3</a></li>
-                            <li><a href="#">Deep Dropdown 4</a></li>
-                            <li><a href="#">Deep Dropdown 5</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="#">Dropdown 2</a></li>
-                        <li><a href="#">Dropdown 3</a></li>
-                        <li><a href="#">Dropdown 4</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="#contact">Contact</a></li>
-                  </ul>
-                  <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-                </nav>
-          
-              </div>
-            </header>
-          
-            <main class="main">
-          
-              <!-- Hero Section -->
-              <section id="hero" class="hero section dark-background">
-          
-                <div id="hero-carousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
-          
-                  <!-- Slide 1 -->
-                  <div class="carousel-item active">
-                    <div class="carousel-container">
-                      <h2 class="animate__animated animate__fadeInDown" what is <span> business</span></h2>
-                      <p class="animate__animated animate__fadeInUp">A business is defined as an organization or activity engaged in commercial, industrial, or professional activities with the intention of making a profit. It can take various forms, including companies, partnerships, and sole proprietorships, and involves the production, buying, and selling of goods and services. The primary purpose of a business is to generate economic value through these activities.</p>
-                   </div>
-                  </div>
-          
-                  <!-- Slide 2 -->
-                  <div class="carousel-item">
-                    <div class="carousel-container">
-                      <h2 class="animate__animated animate__fadeInDown">different types of business</h2>
-                      <p class="animate__animated animate__fadeInUp">throughout time business has improved over time. Many people create business for other people needs in the world. We have many different types of business that are food, entertainment, tools, and etc. People have created these business to futher improve peoples life style and needs.</p>
-                    </div>
-                  </div>
-          
-                  <!-- Slide 3 -->
-                  <div class="carousel-item">
-                    <div class="carousel-container">
-                      <h2 class="animate__animated animate__fadeInDown">the history behind businesses</h2>
-                      <p class="animate__animated animate__fadeInUp">The original entrepreneurs were, of course, traders and merchants. The first known instance of humans trading comes from New Guinea around 17,000 BCE, where locals exchanged obsidian, a black volcanic glass used to make hunting arrowheads for other needed goods.</p>
-                    </div>
-                  </div>
-                  <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-                  </a>
-          
-                  <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-                    <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-                  </a>
-          
+    <style>
+
+
+    .row {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+
+    .card-shift-right {
+        margin-left: auto;
+    }
+
+
+
+
+
+
+.ranking-list h6 {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+
+.ranking-list ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+
+.ranking-list ul li {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+.card {
+    max-height: 350px;
+    width: 100%;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+
+.card-body {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.card-body .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px; /* this is for the space between title and text */
+}
+
+
+.card-body .card-text {
+    font-size: 1rem;
+    flex-grow: 1; /* Allow the text to grow*/
+}
+
+
+.ranking-list {
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+}
+
+
+.ranking-list h6 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.ranking-list ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+footer {
+            clear: both;
+            position: relative;
+            z-index: 1;
+        }
+
+
+
+
+    </style>
+
+
+
+
+</head>
+<body class="d-flex flex-column h-100">
+    <main class="flex-shrink-0">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container px-5">
+                <a class="navbar-brand" href="index.html">Business</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#context">Context</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#software">Business Software</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#hardware">Business Hardware</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#inno">Innovation</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                    </ul>
                 </div>
-          
+            </div>
+        </nav>
+
+
+        <!-- Header -->
+        <header class="bg-dark py-5">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center justify-content-center">
+                    <div class="col-lg-8 col-xl-7 col-xxl-6">
+                        <div class="my-5 text-center text-xl-start">
+                            <h1 class="display-5 fw-bolder text-white mb-2">Business</h1>
+                            <p class="lead fw-normal text-white-50 mb-4">An educational website discussing hardware, software, and new developments that could help the commercial production industry.</p>
+                            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                                <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Get Started</a>
+                                <a class="btn btn-outline-light btn-lg px-4" href="#!">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="business.png" style="width: 600px; height: 300px;" alt="..." /></div>
+                </div>
+            </div>
+        </header>
+        <!-- Context Section -->
+<section id="context" class="py-5 bg-light">
+            <div class="container">
+                <div class="row gx-5">
+                    <div class="col-12 mb-4"><h2 class="fw-bolder mb-0">Context</h2></div>
+                    <div class="col-12">
+                        <div class="row gx-5 row-cols-1 row-cols-md-2">
+                          <div class="col">
+                          <img src="business2.png" style="width: 475px;"">
+                          </div>
+                            <!--- card --->
+                            <div class=" col h-100 card-shift-right">
+                                <div class="card">
+                                 <div class="card-body ">
+                                    Business is the process of applying contextual information to enhance consumer experiences and decision-making. It means knowing the specifics of a business interaction, such as the user's preferences, time, and location. With data analytics and machine learning, businesses can quickly modify their products, services, and marketing strategies to suit the individual demands of every customer. This tactic not only increases involvement but also cultivates customer satisfaction and loyalty. In the end, context business aims to improve the relationships between businesses and their customers by providing them with a more relevant and customized experience.
+                                       </div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+ 
+        <!-- Business Software Section -->
+<section id="software" class="py-5">
+    <div class="container">
+      <h2 class="fw-bolder text-center mb-4">Business Software</h2>
+
+
+      <div class="row justify-content-center g-4">
+        <!-- First Card (Ableton Live) -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Embracing Cloud Computing</h5>
+              <p class="card-text">Cloud-based solutions increase scalability and flexibility by enabling remote data management and storage.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Second Card (GarageBand) -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Unlocking the Potential of Artificial Intelligence (AI)</h5>
+              <p class="card-text">AI is capable of data analysis, process automation, and well-informed decision-making.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Third Card (Soundtrap) -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Revolutionizing Supply Chain Management with IoT</h5>
+              <p class="card-text">Devices connected to the Internet of Things (IoT) offer real-time insight into logistics, production, and inventories.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- how did present day techonolgy affect business?-->
+      <div class="row g-4 mt-4">
+        <div class="ranking-list col-md-6">
+          <h4>how did present day techonolgy affect business society?</h4>
+         <p>Present day techonolgy affected business society because Technology has had a significant impact on civilization, affecting daily life, work, and communication. Techonlogy also influenced the internet, smartphones, and other development,which also promoted efficiency and convenience. Many Major industries business action have also been impacted by technology. Every technology development in the business sector presents both new chances and difficulties. </p>
+         </div>
+
+        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="cloud.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="ai-career.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="IOT.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Business Hardware -->
+<section id="hardware" class="py-5">
+    <div class="container">
+      <h2 class="fw-bolder text-center mb-4">Business Hardware</h2>
+      <div class="row g-4">
+        <!-- First Card -->
+        <div class="col-md-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">AI-Powered Personal Assistants</h5>
+              <p class="card-text">It is an advanced virtual assistant that uses machine learning and natural language processing to handle chores, emails, and scheduling in order to increase productivity.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Second Card -->
+        <div class="col-md-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Blockchain for Supply Chain Transparency</h5>
+              <p class="card-text">it is a distributed, transparent record system that improves supply chain tracking and ensures transaction security.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Third Card -->
+        <div class="col-md-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Augmented Reality (AR) for Retail</h5>
+              <p class="card-text"> it is an application that helps both in-person and online shopping by allowing customers to see things in their real surroundings before making a purchase.
+                </p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Fourth Card -->
+        <div class="col-md-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">IoT-Enabled Inventory Management</h5>
+              <p class="card-text"> it is an Intelligent sensors and devices that track inventory levels in real time and instantly place orders with providers when stock runs low</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Fifth Card -->
+        <div class="col-md-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Remote Work Collaboration Tools</h5>
+              <p class="card-text">it is a Platform that combines multiple project management and interaction tools, such as task tracking, document sharing, and video calling, allowing for effective remote teamwork.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Sixth Card -->
+        <div class="col-md-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Automated Financial Planning Tools</h5>
+              <p class="card-text">it is a AI-powered software that helps businesses in analyzing financial information, anticipating patterns, and making tactical choices based on statistical analysis 
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Seventh Card -->
+        <div class="col-md-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Personalized Marketing Algorithms:</h5>
+              <p class="card-text">it is a Machine learning program that analyzes customer behavior to develop personalized marketing strategies and improve conversion rates.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Eighth Card -->
+        <div class="col-md-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Drone Delivery Services</h5>
+              <p class="card-text"> It allows Businesses to save money and time on shipping by using drones that can move items fast and efficiently.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Timeline -->
+      <div class="row g-5 mt-5">
+        <div class="ranking-list col-md-6">
+          <h4>Timeline of inventions</h4>
+          <ul>
+            <li>1.Personalized Marketing Algorithms (Early 2000s - Present) </li>
+            <li>2.Remote Work Collaboration Tools (Mid-2000s - Present) </li>
+            <li>3.Automated Financial Planning Tools (Late 2000s - Present) </li>
+            <li>4.AI-Powered Personal Assistants (Early 2010s - Present)</li>
+            <li>5.Augmented Reality (AR) for Retail (Mid-2010s - Present)</li>
+            <li>6.IoT-Enabled Inventory Management (Mid-2010s - Present) </li>
+            <li>7.Blockchain for Supply Chain Transparency (Late 2010s - Present)</li>
+            <li>8.Drone Delivery Services (Late 2010s - Present)</li>
+          </ul>
+        </div>
+        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ <!-- Innovation's Section -->
+<section id="inno" class="py-5">
+    <div class="container">
+      <h2 class="fw-bolder text-center mb-4">Innovative Business</h2>
+      <div class="row g-4 mt-4">
+        <div class="ranking-list col-md-6">
+         <p>My innovation is to create a model of AI assistant using A-frame. This is a model of my future innovation using A-frame. I created this to show a simply model of a AI-assisant because many AI-assistance have alot of flows which make them unable to be global. I created a AI model using A-frame by using sphere, box, and text bubble to add realistic. </p>
+         </div>
+
+      <!--Faq-->
+  <section id="faq" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-4">Frequently Asked Questions</h2>
+
+
+      <div class="accordion" id="faqAccordion">
+
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+              What is business?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              a person's regular occupation, profession, or trade is what you call business.
+            </div>
+          </div>
+        </div>
+
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+              How can this help me achieve my goal in business?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              This can help you achieve your goal in business because it allows you to understand the hardware and software of business.
+            </div>
+          </div>
+        </div>
+
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+              Does cost matter in business?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              The cost doesnt matter in business because some advance business techonology works the same as the cheap version but the only difference is how you efficiently use the techonology.
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Footer Section Below the Content with Space -->
+        <footer class="bg-dark text-white py-4 mt-5">
+            <div class="container text-center">
+              <p class="mb-0">© "In life its better to try something new like business" </p>
+            </div>
+        </footer>
+
+
+
+
+
+
+   
+</body>
+</html>

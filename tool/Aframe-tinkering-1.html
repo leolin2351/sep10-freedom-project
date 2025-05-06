@@ -1,39 +1,37 @@
-<html>
-  <head>
-    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
-    <script src="https://unpkg.com/@c-frame/aframe-particle-system-component@1.2.x/dist/aframe-particle-system-component.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.5.0/dist/aframe-extras.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@fern-solutions/aframe-sky-background/dist/sky-background.umd.min.js"></script>
-  </head>
-  <body>
-    <a-scene>
-      <a-entity id="snow" particle-system="preset: snow; color: #24CAFF; particleCount: 1000"></a-entity>
-      <a-scene>
-        <a-entity id="rain" particle-system="preset: rain; color: #24CAFF; particleCount: 1000"></a-entity>
-        <a-scene>
-          <a-entity id="smoke" particle-system="preset: smoke; color: white; particleCount: 4000"></a-entity>
-          <a-scene>
-            <a-entity id="dust" particle-system="preset: dust; color: brown; particleCount: 10000"></a-entity>
-      <a-entity id="box" geometry="primitive: box"
-                material="color: #EFEFEF; shader: flat"
-                position="0 2 -5"
-                rotation="0 45 45"
-                scale="3 3 3"
-                color="red" 
-                light="type: point; intensity: 5"
-                animation="property: position; easing: easeInOutQuad; dir: alternate; dur: 1000; to: 0 -0.10 -5; loop: true"></a-entity>
-                <a-camera>
-                  <a-cursor fuse=“true” fuse-timeout=“5000”></a-cursor>
-                </a-camera>
-      <a-entity id="ocean" ocean="density: 20; width: 100; depth: 50; speed: 4"
-                material="color: blue; opacity: 0.75; metalness: 0; roughness: 1"
-                rotation="-90 0 0"></a-entity>
+<script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+<a-scene>
+  <!-- Sky background -->
+  <a-sky color="#ECECEC"></a-sky>
 
-      <a-sky-background top-color="#EBEBF5" bottom-color="#B9B9D2"></a-sky-background>
+  <!-- Assistant avatar group -->
+  <a-entity id="assistant" position="0 1.5 -3">
+    <!-- Head -->
+    <a-sphere radius="0.5" color="#FFC65D"></a-sphere>
+    <!-- Left Eye -->
+    <a-sphere position="-0.18 0.12 0.45" radius="0.07" color="#222"></a-sphere>
+    <!-- Right Eye -->
+    <a-sphere position="0.18 0.12 0.45" radius="0.07" color="#222"></a-sphere>
+    <!-- Mouth -->
+    <a-torus position="0 0 0.48" radius="0.13" radius-tubular="0.025" arc="180"
+             rotation="0 0 180" color="#D2691E"></a-torus>
+    <!-- Hat Brim -->
+    <a-cylinder position="0 0.42 0" radius="0.33" height="0.05" color="#222"></a-cylinder>
+    <!-- Hat Top -->
+    <a-cylinder position="0 0.62 0" radius="0.18" height="0.22" color="#222"></a-cylinder>
+  </a-entity>
 
-      <a-entity id="light" light="type: ambient; color: #888"></a-entity>
-      <a-sky color="#222"></a-sky>
-    </a-scene>
-    </a-scene>
-  </body>
-</html>
+  <!-- Assistant "response" as text -->
+  <a-entity id="assistantText"
+            text="value: Hello! Click the box to greet me.; color: black; width: 2"
+            position="0 2.4 -3">
+  </a-entity>
+
+  <!-- Interactive box for user to "ask" -->
+  <a-box position="0 0.7 -3" color="#4CC3D9"
+         event-set__click="_event: click; color: #FF6347"
+         onclick="
+           document.querySelector('#assistantText').setAttribute('text','value','Hi there! How can I help?');
+           document.getElementById('assistant').setAttribute('animation','property: rotation; to: 0 360 0; loop: false; dur: 1000');
+         ">
+  </a-box>
+</a-scene>
