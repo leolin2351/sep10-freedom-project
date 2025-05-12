@@ -157,7 +157,7 @@
 ```
 <p>A takeaway i learn from this A-frame tinker was i had to be creative because i only knew how to add the head and body of my AI-assistant but i had to add detail so i got creative and usee spheres for the eyes, use cylinder to add a hat and also add a text message. I learned that if i wanted to show my classmate and teachers what i learned from a-frame i had to play around with shapes and a-frame to create this.</p>
 <h1>Source:</h1>
-<p>When creating my MVP i needed to use some sources to help me build my website. One source i used was </p>
+<p>When creating my MVP i needed to use some sources to help me build my website. One source i used was <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">Bookstrap</a>. This was one of the most important source i used because Bootstrap is an open-source framework designed to help developers create responsive, mobile-first websites quickly and efficiently. Bookstrap was able to help me complete 50 percent of my MVP because they give you component that you believe best suit for your website. I used Bookstrap to add carousels, card, navabar, scroll bar, accodion and many more because bokstrap gave me the code and i had to change some of the things so it worked. Another source i used was <a href="https://aframe.io">A-frame</a></p>
 [Previous](entry05.md) | [Next](entry07.md)
 
 [Home](../README.md)
