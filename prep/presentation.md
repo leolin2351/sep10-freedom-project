@@ -1,16 +1,26 @@
 # Presentation Plan
 
 ## Hook
-* 
+* Describe why i chose business as my choices
+* Tell a business joke (maybe)
+* ask the audience if they know any information about business.
 
 ## Product
-* 
+* https://leolin2351.github.io/sep10-freedom-project/
+* explain the time and how i created this
 
 ## Process
-* 
+* explain the context 
+* explain the softwares
+* explain the hardwares
+* show the timeline
+* show the a-frame model
+  
 
 ## Conclusion
-* 
+* ONe takeaway i will exprience from this is how to manage stress with this plan because i always get scared when presenting so i will try to be confident and not be scared so i can get some feedback and improvemnt before the real presentation
+* Another takeaway is dont be scared they wouldnt bite because i always think my classmate woild laugh at me if i mess up but i got to face being laugh at.
+* Third takeaway is be myself because i always try to become someone else who present earlier than me because they would beocm my inspration when presenting but i need to be myself.
 
 <!-- EXAMPLE
 
