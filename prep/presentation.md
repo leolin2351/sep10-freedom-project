@@ -6,13 +6,19 @@
 * ask the audience if they know any information about business.
 
 ## Product
-* 
+* https://leolin2351.github.io/sep10-freedom-project/
+* explain the time and how i created this
 
 ## Process
-* 
+* explain the context 
+* explain the softwares
+* explain the hardwares
+* show the timeline
+* show the a-frame model
+  
 
 ## Conclusion
-* 
+* ONe takeaway i will exprience from this is how to manage stress with this plan because i always get scared when presenting so i will try to be confident and not be scared so i can get some feedback and improvemnt before the real presentation.
 
 <!-- EXAMPLE
 
