@@ -1,7 +1,9 @@
 # Presentation Plan
 
 ## Hook
-* 
+* Describe why i chose business as my choices
+* Tell a business joke (maybe)
+* ask the audience if they know any information about business.
 
 ## Product
 * 
